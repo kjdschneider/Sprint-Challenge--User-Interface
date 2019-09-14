@@ -210,3 +210,55 @@ header nav a:hover{
 #box10 {
     background: dodgerblue;
 }
+
+
+
+
+/* About Page Styling */
+.main-about {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px dashed black;
+    margin: 30px 0px;
+}
+
+.options {
+    width: 49%;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px dashed black;
+    padding: 50px 2% 15px 2%;
+}
+
+button {
+    border-radius: 7%;
+    border: 2px solid black;
+    width: 35%;
+    background: white;
+    font-size: 16px;
+    padding: 2%;
+    margin: 10px 0px;
+}
+
+.options img {
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.about-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.lower-about {
+    width: 95%;
+    margin: 30px 0px;
+}
+
+.upper-about {
+    width: 95%;
+}
