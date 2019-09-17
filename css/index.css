@@ -144,3 +144,191 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+header nav {
+    width: 800px;
+    display: flex;
+    justify-content: baseline; 
+}
+
+.top-contain {
+    width: 800px;
+    margin: 30px 0px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    margin: 23px 40px 0px 40px;;
+}
+
+header nav a:hover{
+    color: gray;
+}
+
+header nav a:active{
+    color: white;
+}
+
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+#box7 {
+    background: darkorchid;
+}
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
+}
+
+
+
+
+/* About Page Styling */
+.main-about {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px dashed black;
+    margin: 30px 0px;
+}
+
+.options {
+    width: 49%;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px dashed black;
+    padding: 50px 2% 15px 2%;
+}
+
+button {
+    border-radius: 7%;
+    border: 2px solid black;
+    width: 35%;
+    background: white;
+    font-size: 16px;
+    padding: 2%;
+    margin: 10px 0px;
+}
+
+.options img {
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.about-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.lower-about {
+    width: 95%;
+    margin: 30px 0px;
+}
+
+.upper-about {
+    width: 95%;
+}
+
+
+/* CSS Animations */
+
+@keyframes fade {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+body {
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+button:hover {
+    box-shadow: -3px 3px #dee0df;
+}
+
+button:active {
+    box-shadow: -1px 1px #636363;
+    transform: translateY(1px) translateX(-1px);
+}
+
+
+
+/* Contact Styling */
+.upper-contact {
+    width: 95%;
+}
+
+.main-contact {
+    width: 95%;
+    margin: 50px 0px;
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+    padding: 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.main-contact h3 {
+    margin: 10px 0px;
+}
+
+textarea {
+    resize: none;
+    width: 400px;
+    height: 200px;
+}
+
+.lower-contact {
+    width: 95%;
+    margin-bottom: 40px;
+    line-height: 1.2;
+}
+
+.container-contact {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
